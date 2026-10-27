@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: hellodotnet
+  description: "basic dotnet app via backstage"
+spec:
+  type: service
+  owner: user:default/guest
+  lifecycle: experimental
